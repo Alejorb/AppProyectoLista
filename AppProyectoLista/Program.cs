@@ -16,7 +16,8 @@ namespace AppProyectoLista
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Estudiantes());
+            //Application.Run(new Estudiantes());
+            Application.Run(new Productos_de_venta());
         }
     }
 }

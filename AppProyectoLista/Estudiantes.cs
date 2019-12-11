@@ -35,5 +35,15 @@ namespace AppProyectoLista
             item.SubItems.Add(estudiantes.EstadoCivil);
             item.SubItems.Add(estudiantes.edad.ToString());
         }
+
+        private void listViewEstudiantes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Estudiantes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
